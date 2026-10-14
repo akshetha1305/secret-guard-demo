@@ -6,7 +6,7 @@ import ssl
 import sys
 import urllib.error
 import urllib.request
-
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 BASE_URL = "https://api.groq.com/openai/v1"
 
 # Known chat models, in order of preference (pinned, not guessed)
